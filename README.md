@@ -32,7 +32,7 @@ Add the following conten to your podfile:
 ```ruby
 platform :ios, '10.0'
 target 'Your-App-Target' do
-  pod 'FPhiSelphIDWidgetiOS'
+  pod 'FPhiSelphIDWidgetiOSLight'
 end
 ```
 
