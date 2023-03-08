@@ -21,7 +21,7 @@ let package = Package(
         .target(
             name: "FPhiSelphIDWidgetiOSLight",
             dependencies: ["FPhiSelphIDWidgetiOS", "ZipZap"],
-            resources: [.process("fphi-selphid-widget-resources-selphid-1.0.zip")]),
+            resources: [.copy("fphi-selphid-widget-resources-selphid-1.0.zip")]),
             .binaryTarget(name: "FPhiSelphIDWidgetiOS", path: "FPhiSelphIDWidgetiOS.xcframework"),
             .binaryTarget(name: "ZipZap", path: "ZipZap.xcframework"),
     ]
