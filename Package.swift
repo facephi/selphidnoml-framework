@@ -28,6 +28,6 @@ let package = Package(
                 .product(name: "FPhiMBWidgetiOS", package: "microblink-framework")
             ],
             resources: [.copy("fphi-selphid-widget-resources-selphid-1.0.zip")]),
-        .binaryTarget(name: "FPhiSelphIDWidgetiOS", path: "FPhiSelphIDWidgetiOS.xcframework")
+        .binaryTarget(name: "FPhiSelphIDWidgetiOS", path: "./FPhiSelphIDWidgetiOS.xcframework")
     ]
 )
