@@ -25,7 +25,7 @@ let package = Package(
             dependencies: [
                 "FPhiSelphIDWidgetiOS",
                 .product(name: "FPhiZipZap", package: "SDK-ZipZap-SPM"),
-                .product(name: "Microblink", package: "microblink-framework")
+                .product(name: "FPhiMBWidgetiOS", package: "microblink-framework")
             ],
             resources: [.copy("fphi-selphid-widget-resources-selphid-1.0.zip")]),
         .binaryTarget(name: "FPhiSelphIDWidgetiOS", path: "FPhiSelphIDWidgetiOS.xcframework")

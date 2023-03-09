@@ -7,5 +7,6 @@
 
 import Foundation
 import FPhiSelphIDWidgetiOS
+import Microblink
 
 private class FPhiSelphIDWidgetiOSLight {}
