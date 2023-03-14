@@ -15,7 +15,7 @@ let package = Package(
         // Dependencies declare other packages that this package depends on.
         // .package(url: /* package url */, from: "1.0.0"),
         .package(url: "git@github.com:facephi-clienters/SDK-ZipZap-SPM.git", from: "1.0.0"),
-        .package(url: "git@github.com:facephi/microblink-framework.git", branch: "feature/SM-1429_Add_SPM_Support")
+        .package(url: "git@github.com:facephi-clienters/FPhiMBWidgetiOS-framework.git", from: "5.20.0")
     ],
     targets: [
         // Targets are the basic building blocks of a package. A target can define a module or a test suite.
@@ -25,7 +25,7 @@ let package = Package(
             dependencies: [
                 "FPhiSelphIDWidgetiOS",
                 .product(name: "FPhiZipZap", package: "SDK-ZipZap-SPM"),
-                .product(name: "FPhiMBWidgetiOS", package: "microblink-framework")
+                .product(name: "FPhiMBWidgetiOS", package: "FPhiMBWidgetiOS-framework")
             ],
             resources: [.copy("fphi-selphid-widget-resources-selphid-1.0.zip")]),
         .binaryTarget(name: "FPhiSelphIDWidgetiOS", path: "./FPhiSelphIDWidgetiOS.xcframework")
